@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Form</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;600&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <form action="mailto:sarthaksri592@gmail.com" method="post" enctype="text/plain">
+      <div class="title">
+        <h2>CONTACT</h2>
+      </div>
+      <div class="half">
+        <div class="item">
+          <label for="name">NAME</label>
+          <input type="text" id = "name">
+        </div>
+        <div class="item">
+          <label for="email">EMAIL</label>
+          <input type="text" id = "email">
+        </div>
+      </div>
+      <div class="full">
+        <label>What describes your current qualification?</label>
+        <select id="dropdown" name="role" class="form-control" required>
+          <option disabled selected value></option>
+          <option value="student">High School</option>
+          <option value="job">Postgraduate</option>
+          <option value="learner">Undergraduate</option>
+          <option value="preferNo">PhD</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+  
+      <div class="full">
+        <label>Year</label>
+        <select id="most-like" name="mostLike" class="form-control" required>
+          <option disabled selected value></option>
+          <option value="challenges">First</option>
+          <option value="projects">Second</option>
+          <option value="community">Third</option>
+          <option value="openSource">Fourth</option>
+        </select>
+      </div>
+      <div class="full">
+        <label for="message">MESSAGE</label>
+        <textarea name="" id = "message"></textarea>
+      </div>
+      <div class="action">
+        <input type="submit" value = "SEND MESSAGE">
+        <input type="reset" value = "RESET">
+      </div>
+      <div class="icons">
+        <a href="https://twitter.com/SarthakSrvstv" class = "fa fa-twitter"></a>
+        <a href="https://www.linkedin.com/in/sarthak-srivastava295/" class = "fa fa-linkedin"></a>
+        <a href="https://www.instagram.com/sarthak_srivastava/" class = "fa fa-instagram"></a>
+        <a href="https://github.com/sarthak-dv" class = "fa fa-github"></a>
+      </div>
+    </form>
+  </body>
+</html>
